@@ -7,6 +7,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DevOpsDemo", "DevOpsDemo\De
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DevOpsDemo.Test", "DevOpsDemo.Test\DevOpsDemo.Test.csproj", "{C3AB68A8-39C2-478D-A082-7710804E119A}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DevOps", "DevOps", "{1B6D44A1-A528-40E9-967F-05D75EFE027B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -24,6 +26,10 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{43CB880A-C701-4B87-B00E-1A1A15F835CD} = {1B6D44A1-A528-40E9-967F-05D75EFE027B}
+		{C3AB68A8-39C2-478D-A082-7710804E119A} = {1B6D44A1-A528-40E9-967F-05D75EFE027B}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {EA7A3F67-7253-41B3-B520-58813D740266}

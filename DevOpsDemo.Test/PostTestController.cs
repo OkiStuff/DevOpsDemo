@@ -3,7 +3,6 @@ using DevOpsDemo.Controllers;
 using DevOpsDemo.Models;
 using DevOpsDemo.Repository;
 using Microsoft.AspNetCore.Mvc;
-using System;
 using System.Collections.Generic;
 using Xunit;
 
